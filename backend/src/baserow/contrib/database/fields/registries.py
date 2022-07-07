@@ -1426,7 +1426,7 @@ class FieldConverter(Instance):
             def alter_field(self, from_field, to_field, from_model, to_model,
                             from_model_field, to_model_field, user, connection):
                 # This is just for example purposes, but it will delete the old text
-                # field field and create a new date field. You can be very creative
+                # field and create a new date field. You can be very creative
                 # here in how you want to convert field and the data. It is for example
                 # possible to load all the old data in memory, convert it and then
                 # update the new data. Performance should always be kept in mind
