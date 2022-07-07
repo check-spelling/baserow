@@ -2295,7 +2295,7 @@ class MultipleSelectFieldType(SelectOptionBaseFieldType):
         if len(selected_ids) != len(unique_values):
             invalid_ids = sorted(list(unique_values - set(selected_ids)))
             if continue_on_error:
-                # Replace values by error for failling rows
+                # Replace values by error for failing rows
                 for invalid_id in invalid_ids:
                     for row_index in value_map[invalid_id]:
                         values_by_row[
