@@ -428,7 +428,7 @@ export class GridViewType extends ViewType {
           hidden: false,
           order: maxPossibleOrderValue,
           aggregation_type: '',
-          aggrgation_raw_type: '',
+          aggregation_raw_type: '',
         },
       },
       { root: true }
