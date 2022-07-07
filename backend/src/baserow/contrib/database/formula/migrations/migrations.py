@@ -32,7 +32,7 @@ class FormulaMigration:
 
     """
     If this version requires formulas from older versions to have their field
-    dependencies recalculated using FieldDependencyHandler.rebuild_depedencies then
+    dependencies recalculated using FieldDependencyHandler.rebuild_dependencies then
     provide a filter here matching the formula fields that should have this done.
 
     Most
