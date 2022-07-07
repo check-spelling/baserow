@@ -253,7 +253,7 @@
         "noGroupText": "You aren’t a member of any group. Applications like databases belong to a group, so in order to create them you need to create a group.",
         "createGroup": "Create group",
         "becomeGitHubSponsor": "Become a GitHub sponsor",
-        "starOnGitlab": "Star us on Gitlab",
+        "starOnGitLab": "Star us on GitLab",
         "shareOnTwitter": "Tweet about Baserow",
         "shareOnReddit": "Share on Reddit",
         "shareOnFacebook": "Share on Facebook",

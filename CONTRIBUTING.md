@@ -22,7 +22,7 @@ repository on GitHub, but this is not the official one.
 1. Make the changes described in the issue.
 1. Ensure that your code meets the quality standards.
 1. Submit your merge request!
-1. Usually we enable the following Gitlab merge options:
+1. Usually we enable the following GitLab merge options:
     1. "Delete source branch when merge request is accepted. "
     1. "Squash commits when merge request is accepted."
 1. A maintainer will review your code and merge your code.
