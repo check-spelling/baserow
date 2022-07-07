@@ -1395,7 +1395,7 @@ export const actions = {
     const isLast = index === allRowsCopy.length - 1
 
     if (
-      // All of these scenario's mean that that the row belongs in the buffer that
+      // All of these scenario's mean that the row belongs in the buffer that
       // we have loaded currently.
       (isFirst && getters.getBufferStartIndex === 0) ||
       (isLast && getters.getBufferEndIndex === getters.getCount) ||
