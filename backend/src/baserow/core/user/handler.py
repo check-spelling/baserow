@@ -338,7 +338,7 @@ class UserHandler:
         will be deleted after a predefined grace delay unless the user
         cancel his account deletion by log in again.
         To be valid, the current user password must be provided.
-        This action sends an email to the user to explain the proccess.
+        This action sends an email to the user to explain the process.
 
         :param user: The user to flag as `to_be_deleted`.
         :param password: The current user password.
