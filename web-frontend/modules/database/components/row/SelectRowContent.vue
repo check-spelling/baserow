@@ -156,7 +156,7 @@ export default {
     // We want to start with some initial data when the modal opens for the first time.
     await this.fetch(1)
 
-    // Becuase most of the template depends on having some initial data we mark the
+    // Because most of the template depends on having some initial data we mark the
     // state as loaded after that. Only a loading animation is shown if there isn't any
     // data.
     this.loaded = true
