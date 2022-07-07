@@ -300,7 +300,7 @@ class TableHandler:
         :raises InitialTableDataDuplicateName: When duplicates exit in field names.
         :raises ReservedBaserowFieldNameException: When the field name is reserved by
             Baserow.
-        :raises InvalidBaserowFieldName: When the field name is invalid (emtpy).
+        :raises InvalidBaserowFieldName: When the field name is invalid (empty).
         """
 
         if len(data) == 0:

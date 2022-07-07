@@ -143,14 +143,14 @@ def test_view_empty_count_aggregation_for_interesting_table(data_fixture):
             )
         )
 
-    result_not_emtpy = view_handler.get_field_aggregations(
+    result_not_empty = view_handler.get_field_aggregations(
         grid_view, aggregation_query, model=model
     )
 
     for field in model._field_objects.values():
         assert (
             result_empty[field["field"].db_column]
-            + result_not_emtpy[field["field"].db_column]
+            + result_not_empty[field["field"].db_column]
             == result_empty["total"]
         )
 
