@@ -140,7 +140,7 @@ For example:
 * Add loading bar when syncing templates to make it obvious Baserow is still loading.
 * Fixed bug where old values are missing in the update trigger of the webhook.
 * Scroll to the first error message if the form submission fail
-* Improved backup_baserow spltting multiselect through tables in separate batches.
+* Improved backup_baserow splitting multiselect through tables in separate batches.
 * Fixed a bug that truncated characters for email in the sidebar
 * **breaking change** The API endpoint `/api/database/formula/<field_id>/type/` now requires
   `table_id` instead of `field_id`, and also `name` in the request body.

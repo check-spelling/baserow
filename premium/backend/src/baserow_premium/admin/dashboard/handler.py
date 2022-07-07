@@ -58,7 +58,7 @@ class AdminDashboardHandler:
         :type distinct: bool
         :param additional_filters:
         :type additional_filters: dict
-        :param include_previous: Indicates if an additional count of the the range
+        :param include_previous: Indicates if an additional count of the range
             before each delta_mapping mapping value must be added to the response
             under the name `previous_{name}`. If the delta is for example 24 hours
             than additionally a count of the range 48 hours before now until 24 hours

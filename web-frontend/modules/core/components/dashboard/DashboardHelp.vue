@@ -10,7 +10,7 @@
       rel="noopener noreferrer"
       class="button button--primary dashboard__help-button"
     >
-      {{ $t('dashboard.starOnGitlab') }}
+      {{ $t('dashboard.starOnGitLab') }}
       <i class="fab fa-gitlab"></i>
     </a>
     <a

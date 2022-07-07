@@ -197,9 +197,9 @@ class DateAirtableColumnType(AirtableColumnType):
             )
         except ValueError:
             tb = traceback.format_exc()
-            print(f"Importing Airtable datetime cell failed failed because of: \n{tb}")
+            print(f"Importing Airtable datetime cell failed because of: \n{tb}")
             logger.error(
-                f"Importing Airtable datetime cell failed failed because of: \n{tb}"
+                f"Importing Airtable datetime cell failed because of: \n{tb}"
             )
             return None
 

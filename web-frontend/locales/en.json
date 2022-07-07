@@ -184,7 +184,7 @@
         "tooManyRequestsTitle": "Too many requests",
         "tooManyRequestsDescription": "You are sending too many requests to the server. Please wait a moment.",
         "notCompletedTitle": "Action not completed.",
-        "notCompletedDescription": "The action couldn't be completed because an unknown error has occured.",
+        "notCompletedDescription": "The action couldn't be completed because an unknown error has occurred.",
         "userNotInGroupTitle": "Action not allowed.",
         "userNotInGroupDescription": "The action couldn't be completed because you aren't a member of the related group.",
         "invalidGroupPermissionsTitle": "Action not allowed.",
@@ -320,7 +320,7 @@
         "roundDescription": "Returns first argument rounded to the number of digits specified by the second argument.",
         "intDescription": "Returns only the first argument converted into an integer by truncating any decimal places."
     },
-    "functionnalGridViewFieldLinkRow": {
+    "functionalGridViewFieldLinkRow": {
         "unnamed": "unnamed row {value}"
     },
     "urlCheck": {

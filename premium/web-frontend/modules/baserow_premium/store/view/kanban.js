@@ -557,7 +557,7 @@ export const actions = {
   /**
    * The dragging of rows to other stacks and position basically consists of three+
    * steps. First is calling this action which brings the rows into dragging state
-   * and stores what the current stack and and index was. A row in dragging state is
+   * and stores what the current stack and index was. A row in dragging state is
    * basically an invisible placeholder card that can be moved to other positions
    * using the available actions. When the row has been dragged to the right
    * position, the `stopRowDrag` action can be called to finalize it.

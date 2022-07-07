@@ -40,7 +40,7 @@ def is_dict_subset(subset: dict, superset: dict) -> bool:
 def setup_interesting_test_table(data_fixture, user_kwargs=None):
     """
     Constructs a testing table with every field type, their sub types and any other
-    interesting baserow edge cases worth testing when writing a comphensive "does this
+    interesting baserow edge cases worth testing when writing a comprehensive "does this
     feature work with all the baserow fields" test.
 
     :param data_fixture: The baserow testing data_fixture object

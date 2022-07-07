@@ -300,7 +300,7 @@ class TableHandler:
         :raises InitialTableDataDuplicateName: When duplicates exit in field names.
         :raises ReservedBaserowFieldNameException: When the field name is reserved by
             Baserow.
-        :raises InvalidBaserowFieldName: When the field name is invalid (emtpy).
+        :raises InvalidBaserowFieldName: When the field name is invalid (empty).
         """
 
         if len(data) == 0:
@@ -431,7 +431,7 @@ class TableHandler:
     def order_tables(self, user: AbstractUser, database: Database, order: List[int]):
         """
         Updates the order of the tables in the given database. The order of the views
-        that are not in the `order` parameter set set to `0`.
+        that are not in the `order` parameter set to `0`.
 
         :param user: The user on whose behalf the tables are ordered.
         :param database: The database of which the views must be updated.
