@@ -2395,7 +2395,7 @@ class MultipleSelectFieldType(SelectOptionBaseFieldType):
 
         # Trigger the newly created pending operations of all the models related to the
         # created ManyToManyField. They need to be called manually because normally
-        # they are triggered when a new new model is registered. Not triggering them
+        # they are triggered when a new model is registered. Not triggering them
         # can cause a memory leak because everytime a table model is generated, it will
         # register new pending operations.
         apps = model._meta.apps
