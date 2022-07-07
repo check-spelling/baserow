@@ -627,7 +627,7 @@ class FieldType(
         Defines whether the sql provided by the get_alter_column_prepare_{old,new}_value
         hooks should be forced to run when converting between two fields of this field
         type which have the same database column type.
-        You only need to implement this when when you have validation and/or data
+        You only need to implement this when you have validation and/or data
         manipulation running as part of your alter_column_prepare SQL which must be
         run even when from_field and to_field are the same Baserow field type and sql
         column type. If your field has the same baserow type but will convert into
