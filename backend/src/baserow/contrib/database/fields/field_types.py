@@ -509,7 +509,7 @@ class RatingFieldType(FieldType):
 
     def force_same_type_alter_column(self, from_field, to_field):
         """
-        Force field alter column hook to be called when chaging max_value.
+        Force field alter column hook to be called when changing max_value.
         """
 
         return to_field.max_value != from_field.max_value
