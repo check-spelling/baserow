@@ -35,7 +35,7 @@ class Migration(migrations.Migration):
             model_name="fileimportjob",
             name="name",
             field=models.CharField(
-                default="", help_text="The name the the created table.", max_length=255
+                default="", help_text="The name the created table.", max_length=255
             ),
         ),
         migrations.AddField(

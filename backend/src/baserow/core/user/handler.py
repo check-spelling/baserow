@@ -443,7 +443,7 @@ class UserHandler:
         with transaction.atomic():
             for group in groups_to_be_deleted:
                 # Here we use the trash handler to be sure that we delete every thing
-                # related the the groups like
+                # related the groups like
                 TrashHandler.permanently_delete(group)
             users_to_delete.delete()
 

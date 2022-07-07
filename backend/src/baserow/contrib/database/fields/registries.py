@@ -1448,10 +1448,10 @@ class FieldConverter(Instance):
         :param from_model: The old model containing only the old field.
         :type from_model: Model
         :param from_field: The old field instance. It should only be used for type and
-            property comparison with the the to_field because else things might break.
+            property comparison with the to_field because else things might break.
         :type from_field: Field
         :param to_field: The new field instance. It should only be used for type and
-            property comparison with the the from_field because else things might
+            property comparison with the from_field because else things might
             break.
         :type to_field: Field
         :return: If True then the alter_field method of this converter will be used
