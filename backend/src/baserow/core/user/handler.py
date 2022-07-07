@@ -95,7 +95,7 @@ class UserHandler:
         :param password: The password of the user.
         :param language: The language selected by the user.
         :param group_invitation_token: If provided and valid, the invitation will be
-            accepted and and initial group will not be created.
+            accepted and initial group will not be created.
         :param template: If provided, that template will be installed into the newly
             created group.
         :raises: UserAlreadyExist: When a user with the provided username (email)

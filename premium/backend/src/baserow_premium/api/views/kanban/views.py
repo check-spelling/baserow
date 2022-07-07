@@ -81,7 +81,7 @@ class KanbanViewView(APIView):
                     "`?select_option=1&select_option=null` will only include the rows "
                     "for both select option with id `1` and `null`. "
                     "`?select_option=1,10,20` will only include the rows of select "
-                    "option id `1` with a limit of `10` and and offset of `20`."
+                    "option id `1` with a limit of `10` and offset of `20`."
                 ),
             ),
         ],
