@@ -9,7 +9,7 @@ class PremiumUserDataType(UserDataType):
     def get_user_data(self, user, request) -> dict:
         """
         Someone who authenticates via the API should know beforehand if the related
-        user has a valid license for the premioum version.
+        user has a valid license for the premium version.
         """
 
         return {
