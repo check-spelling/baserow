@@ -324,7 +324,7 @@ class ViewHandler:
     def order_views(self, user: AbstractUser, table: Table, order: List[int]):
         """
         Updates the order of the views in the given table. The order of the views
-        that are not in the `order` parameter set set to `0`.
+        that are not in the `order` parameter set to `0`.
 
         :param user: The user on whose behalf the views are ordered.
         :param table: The table of which the views must be updated.
