@@ -107,7 +107,7 @@
         echo "Building from $BUILD_FROM_IMAGE."
       fi
 
-      # * Use `--build-arg BUILDKIT_INLINE_CACHE=1` to ensure this image's itermediate
+      # * Use `--build-arg BUILDKIT_INLINE_CACHE=1` to ensure this image's intermediate
       #    layers will be cached so builds caching from this image can use those layers.
       # * $CACHE_ARG is a --cache-from if we have an existing image that we can use
       #    to speed up this build.
