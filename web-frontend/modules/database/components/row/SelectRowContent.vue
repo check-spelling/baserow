@@ -197,7 +197,7 @@ export default {
       return false
     },
     /**
-     * Because the rows are split in a left and right section we need Javascript to
+     * Because the rows are split in a left and right section we need JavaScript to
      * show a hover effect of the whole row. This method makes sure the correct row has
      * the correct hover state.
      */

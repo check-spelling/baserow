@@ -33,7 +33,7 @@ repository on GitHub, but this is not the official one.
 * Python code must be compliant with the PEP 8 standard.
 * In code Python docs must be in reStructured style.
 * SCSS code must be compliant with BEM.
-* Javascript code must be compliant with the eslint:recommended rules.
+* JavaScript code must be compliant with the eslint:recommended rules.
 * In code documentation is required for every function or class that is not self-evident.
 * Documentation for every concept that can used by a plugin.
 * [changelog.md](changelog.md) should be updated with any new features.
