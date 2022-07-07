@@ -379,7 +379,7 @@ FROM baserow/baserow:1.10.2
 # useful for storing your own environment variable overrides.
 COPY custom_env.sh /baserow/supervisor/env/custom_env.sh
 
-# Set the DATA_DIR environment variable to change where Baserow stores its persistant 
+# Set the DATA_DIR environment variable to change where Baserow stores its persistent 
 # data. At startup Baserow will attempt to chown and setup this folder correctly.
 ENV DATA_DIR=/baserow/data
 
