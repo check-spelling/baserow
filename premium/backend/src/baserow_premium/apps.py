@@ -21,7 +21,7 @@ class BaserowPremiumConfig(AppConfig):
         from baserow_premium.api.user.user_data_types import PremiumUserDataType
 
         # noinspection PyUnresolvedReferences
-        import baserow_premium.row_comments.recievers  # noqa: F401
+        import baserow_premium.row_comments.receivers  # noqa: F401
 
         from .plugins import PremiumPlugin
         from .export.exporter_types import JSONTableExporter, XMLTableExporter
