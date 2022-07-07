@@ -492,7 +492,7 @@ class BaserowFunctionDefinition(Instance, abc.ABC):
         definition this function will check the type of each argument against the
         arg_types property. If they all pass the type check then the user implemented
         type_function_given_valid_args will be called. If they don't a
-        BaserowInvalidType will be returned containing a relavent error message.
+        BaserowInvalidType will be returned containing a relevant error message.
 
         :param typed_args: The typed but not checked argument BaserowExpressions.
         :param expression: The func_call expression which contains the typed_args but
