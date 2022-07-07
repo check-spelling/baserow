@@ -194,7 +194,7 @@ export default {
       // The initial vertical position absolute client position of the card after
       // mousedown.
       downCardClientY: 0,
-      // The autoscroll timeout that keeps keeps calling the autoScrollLoop method to
+      // The autoscroll timeout that keeps calling the autoScrollLoop method to
       // initiate the autoscroll effect when dragging a card.
       autoScrollTimeout: null,
     }
