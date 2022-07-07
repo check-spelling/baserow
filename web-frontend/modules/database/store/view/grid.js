@@ -1585,7 +1585,7 @@ export const actions = {
     { getters, commit, dispatch },
     { table, view, primary, fields, getScrollTop, data, rowIndex, fieldIndex }
   ) {
-    // If the origin origin row and field index are not provided, we need to use the
+    // If the origin row and field index are not provided, we need to use the
     // head indexes of the multiple select.
     const rowHeadIndex = rowIndex || getters.getMultiSelectHeadRowIndex
     const fieldHeadIndex = fieldIndex || getters.getMultiSelectHeadFieldIndex
