@@ -15,7 +15,7 @@
         >
           {{
             item.value ||
-            parent.$t('functionnalGridViewFieldLinkRow.unnamed', {
+            parent.$t('functionalGridViewFieldLinkRow.unnamed', {
               value: item.id,
             })
           }}

@@ -320,7 +320,7 @@
         "roundDescription": "Returns first argument rounded to the number of digits specified by the second argument.",
         "intDescription": "Returns only the first argument converted into an integer by truncating any decimal places."
     },
-    "functionnalGridViewFieldLinkRow": {
+    "functionalGridViewFieldLinkRow": {
         "unnamed": "unnamed row {value}"
     },
     "urlCheck": {
