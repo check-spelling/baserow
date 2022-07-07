@@ -122,7 +122,7 @@ class BaserowExpression(abc.ABC, Generic[A]):
         A wrapper expression is a function call that needs to be removed in nested
         field references.
         Returns True if the expression is a wrapper expression (e.g 'error_to_nan()').
-        Look at `FomulaTypingVisitor.visit_field_reference` for more information.
+        Look at `FormulaTypingVisitor.visit_field_reference` for more information.
         """
 
         return False
