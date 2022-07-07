@@ -594,7 +594,7 @@ export const actions = {
       (lastRequestOffset !== requestOffset || lastRequestLimit !== requestLimit)
     ) {
       fireScrollTop.processing = true
-      // If another request is runnig we need to cancel that one because it won't
+      // If another request is running we need to cancel that one because it won't
       // what we need at the moment.
       if (lastRequest !== null) {
         lastQueryController.abort()
